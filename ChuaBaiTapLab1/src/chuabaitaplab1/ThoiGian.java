@@ -16,6 +16,7 @@ public class ThoiGian {
     public static final int BANG_NHAU = 0;
     public static final int LON_HON = 1;
     public static final int NHO_HON = -1;
+    
     public int ngay;
     public int thang;
     public int nam;
