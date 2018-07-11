@@ -1,0 +1,44 @@
+package demo;
+
+import java.util.LinkedList;
+
+/**
+ *
+ * @author anhquan12
+ */
+public class Example {
+
+
+    private static LinkedList<Example> instances;
+
+    private Example() {
+
+    }
+
+    public static Example getInstance() {
+        if (instances == null) {
+            System.out.println("Danh sách instances rỗng, khởi tạo mới.");
+            instances = new LinkedList<>();
+        }
+        if (instances.size() >= 3) {
+            System.out.println("Số lượng instances vượt quá 3, remove phần tử đầu tiên.");
+            instances.removeFirst();
+        }
+        System.out.println("Thêm mới phần tử vào vị trí cuối cùng.");
+        instances.addLast(new Example());
+        System.out.println("Số lượng instance: " + instances.size());
+        System.out.println("Trả về phần tử cuối cùng trong list.");
+        return instances.getLast();
+    }
+
+    public static void main(String[] args) {
+        Example exam1 = Example.getInstance();
+        System.out.println("----------------------------------");
+        Example exam2 = Example.getInstance();
+        System.out.println("----------------------------------");
+        Example exam3 = Example.getInstance();
+        System.out.println("----------------------------------");
+        Example exam4 = Example.getInstance();
+        System.out.println("----------------------------------");
+    }
+}

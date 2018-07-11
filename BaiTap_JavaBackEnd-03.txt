@@ -1,0 +1,10 @@
+Baì tập:
+Xây dựng chương trình quản lý nhân viên trên console có với tính năng sau: 
+Nhân viên có các thuộc tính sau: Mã (int, tự tăng), Tên nhân viên(String), Giới tính ( enum, 1= Nam, 0=Nữ, -1 = Không xác định). Menu của chương trình với các tính năng  như sau:
+1.  Nhập danh sách nhân viên. ( Nhập số lượng -> nhập dữ liệu cho từng nhân viên)
+2.	Hiện nhân viên đã có trong hệ thống.
+3.	Tìm nhân viên theo  giới tính và sắp xếp kết quả theo tên nhân viên. 
+Giới tính được chọn từ bàn phím tương ứng các giá trị: 1-> Nam, 0-> Nữ, -1 => Không xác định
+4.	Thoát.
+
+Xây dựng chương trình thành menu, sau khi chọn 1 chức năng thì sẽ quay lại menu để chọn chức năng tiếp theo, trừ thoát
