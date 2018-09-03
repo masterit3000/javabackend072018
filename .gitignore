@@ -19,3 +19,12 @@
 /DemoIO/build/
 /DemoNetwork/nbproject/private/
 /DemoNetwork/build/
+/RMIInterface/nbproject/private/
+/DemoRMIServer/nbproject/private/
+/RMIInterface/dist/
+/RMIInterface/build/
+/DemoRMIServer/build/
+/DemoRMIClient/nbproject/private/
+/DemoRMIClient/build/
+/DemoURL/nbproject/private/
+/DemoURL/build/
