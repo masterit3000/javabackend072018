@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            div{
+                /*border-color: blue;*/
+                /*border-style: double;*/
+            }
+
+            .abc{
+
+                text-decoration:underline;
+            }
+            div.abc{
+
+            }
+            div a{
+
+            }
+
+            #id01{
+                position: absolute;
+                left: 300px;
+            }
+        </style>
+        <script type="text/javascript">
+            //ngon gnu lap trinh nhu java, c
+            var a = 10;
+//            let s = 2;
+            var s = "ssss";
+            for (var i = 0; i < 100; i++) {
+                console.log(i);
+            }
+
+            function doiMauDiv() {
+
+                document.getElementById("id01").style.backgroundColor = "#556677";
+
+            }
+
+            var tenham = function (a) {
+
+                console.log("hellooooo " + a);
+            }
+
+            document.getElementById("chaochao");
+
+
+
+        </script>
+
+
+    </head>
+    <body>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="input-group">
+                    <span class="input-group-addon">@</span>
+                    <input type="text" class="form-control" placeholder="Username">
+                </div>
+
+                <div class="input-group">
+                    <input type="text" class="form-control">
+                    <span class="input-group-addon">.00</span>
+                </div>
+
+                <div class="input-group">
+                    <span class="input-group-addon">$</span>
+                    <input type="text" class="form-control">
+                    <span class="input-group-addon">.00</span>
+                </div>
+            </div>
+            <div class="col-md-4">
+                a
+            </div>
+            <div class="col-md-4">
+                a
+            </div>
+        </div>
+
+
+        <div style="background-color: red; width: 300px; height: 400px">
+
+        </div>
+
+        <div onclick="tenham(this.id)" id="chaochao" >
+            ádsadsada
+        </div>
+        <div class="abc">
+            dddddddd
+        </div>
+        <div class="abc" id="id01">
+            oooooooooooooooooooooooooooooooo
+        </div>
+
+        <button onclick="doiMauDiv()">
+            Click doi mau
+        </button>
+        <script type="text/javascript">
+            document.getElementById("chaochao").addEventListener("mouseover", function () {
+                document.getElementById("chaochao").style.backgroundColor = "green";
+            });
+        </script>
+    </body>
+</html>

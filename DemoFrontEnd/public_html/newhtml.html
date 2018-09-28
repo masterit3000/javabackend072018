@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Demo BT</title>
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>      
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript">
+            $(function () {
+                //khi load het web moi chay noi dung nay
+                console.log("ready!");
+                $("#div01").click(function (){
+                    
+                    $("#div01").hide("slow");
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 alert alert-success">
+                    Day la menu
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 alert alert-info col-sm-12">
+
+                </div>
+                <div class="col-md-4 alert alert-info col-sm-6" id="div01">
+
+                </div>
+                <div class="col-md-4 alert alert-info col-sm-6">
+
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>
