@@ -1,0 +1,1 @@
+CREATE TABLE javabackedn.sinhvien (ma INTEGER AUTO_INCREMENT NOT NULL, ngaysinh DATE, ten VARCHAR(255), PRIMARY KEY (ma))

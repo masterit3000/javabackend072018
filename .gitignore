@@ -40,3 +40,7 @@
 /DemoWeb01/dist/
 /DemoWeb01/build/
 /DemoServlet/target/
+/DemoWebMVC/nbproject/private/
+/DemoWebMVC/build/
+/WebApplication1/nbproject/private/
+/DemoWebMVC/dist/
